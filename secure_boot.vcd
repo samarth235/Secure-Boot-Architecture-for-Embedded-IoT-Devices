@@ -1,0 +1,68 @@
+$date
+	Mon Jan 26 21:43:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_secure_boot $end
+$var wire 1 ! boot_ok $end
+$var wire 1 " boot_fail $end
+$var reg 1 # clk $end
+$var reg 1 $ power_on $end
+$scope module uut $end
+$var wire 1 % boot_condition $end
+$var wire 1 " boot_fail $end
+$var wire 8 & boot_rom [7:0] $end
+$var wire 1 # clk $end
+$var wire 8 ' firmware_rom [7:0] $end
+$var wire 1 $ power_on $end
+$var wire 1 ( firmware_valid $end
+$var reg 1 ! boot_ok $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1(
+b10101010 '
+b10101010 &
+0%
+0$
+0#
+0"
+x!
+$end
+#5
+0!
+1#
+#10
+1%
+0#
+1$
+#15
+1!
+1#
+#20
+0#
+#25
+1#
+#30
+0#
+#35
+1#
+#40
+0#
+#45
+1#
+#50
+0#
+#55
+1#
+#60
+0#
